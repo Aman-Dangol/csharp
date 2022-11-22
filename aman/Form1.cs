@@ -20,7 +20,22 @@ namespace aman
         private void button1_Click(object sender, EventArgs e)
         {
             string data = username.Text;
-            MessageBox.Show(data);
+            int dataid = Convert.ToInt32(id.Text);
+            if (data == "aman" && dataid==5409)
+            {
+                MessageBox.Show("true");
+                MessageBox.Show(dataid+"");
+            }
+            else
+            {
+                MessageBox.Show("false");
+                
+            }
+            for(int i = 0; i < 3; i++)
+            {
+                MessageBox.Show("success!" + i);
+            }
+            try("")
         }
     }
 }
