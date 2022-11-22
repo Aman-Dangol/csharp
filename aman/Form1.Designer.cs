@@ -35,11 +35,13 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label1.Location = new System.Drawing.Point(65, 41);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(38, 15);
+            this.label1.Size = new System.Drawing.Size(39, 15);
             this.label1.TabIndex = 0;
-            this.label1.Text = "label1";
+            this.label1.Text = "Name";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
@@ -47,9 +49,9 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(65, 68);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(38, 15);
+            this.label2.Size = new System.Drawing.Size(18, 15);
             this.label2.TabIndex = 1;
-            this.label2.Text = "label2";
+            this.label2.Text = "ID";
             // 
             // Form1
             // 
