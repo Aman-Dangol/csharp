@@ -15,3 +15,12 @@ D:\AMAN 3rd sem\csharp\aman\aman\obj\Debug\net6.0-windows\aman.dll
 D:\AMAN 3rd sem\csharp\aman\aman\obj\Debug\net6.0-windows\ref\aman.dll
 D:\AMAN 3rd sem\csharp\aman\aman\obj\Debug\net6.0-windows\aman.pdb
 D:\AMAN 3rd sem\csharp\aman\aman\obj\Debug\net6.0-windows\aman.genruntimeconfig.cache
+D:\csharp\aman\obj\Debug\net6.0-windows\aman.csproj.AssemblyReference.cache
+D:\csharp\aman\obj\Debug\net6.0-windows\aman.Form1.resources
+D:\csharp\aman\obj\Debug\net6.0-windows\aman.csproj.GenerateResource.cache
+D:\csharp\aman\obj\Debug\net6.0-windows\aman.GeneratedMSBuildEditorConfig.editorconfig
+D:\csharp\aman\obj\Debug\net6.0-windows\aman.AssemblyInfoInputs.cache
+D:\csharp\aman\obj\Debug\net6.0-windows\aman.AssemblyInfo.cs
+D:\csharp\aman\obj\Debug\net6.0-windows\aman.csproj.CoreCompileInputs.cache
+D:\csharp\aman\obj\Debug\net6.0-windows\aman.dll
+D:\csharp\aman\obj\Debug\net6.0-windows\aman.pdb
