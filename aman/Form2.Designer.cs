@@ -1,6 +1,6 @@
 ﻿namespace aman
 {
-    partial class minus
+    partial class form2
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.one = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.tb = new System.Windows.Forms.TextBox();
             this.two = new System.Windows.Forms.Button();
             this.three = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
@@ -41,7 +41,8 @@
             this.eight = new System.Windows.Forms.Button();
             this.nine = new System.Windows.Forms.Button();
             this.plus = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.subtract = new System.Windows.Forms.Button();
+            this.zero = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // one
@@ -54,12 +55,12 @@
             this.one.UseVisualStyleBackColor = true;
             this.one.Click += new System.EventHandler(this.button1_Click);
             // 
-            // textBox1
+            // tb
             // 
-            this.textBox1.Location = new System.Drawing.Point(64, 67);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(351, 23);
-            this.textBox1.TabIndex = 1;
+            this.tb.Location = new System.Drawing.Point(64, 67);
+            this.tb.Name = "tb";
+            this.tb.Size = new System.Drawing.Size(351, 23);
+            this.tb.TabIndex = 1;
             // 
             // two
             // 
@@ -69,7 +70,7 @@
             this.two.TabIndex = 0;
             this.two.Text = "two";
             this.two.UseVisualStyleBackColor = true;
-            this.two.Click += new System.EventHandler(this.button1_Click);
+            this.two.Click += new System.EventHandler(this.two_Click);
             // 
             // three
             // 
@@ -79,7 +80,7 @@
             this.three.TabIndex = 0;
             this.three.Text = "three";
             this.three.UseVisualStyleBackColor = true;
-            this.three.Click += new System.EventHandler(this.button1_Click);
+            this.three.Click += new System.EventHandler(this.three_Click);
             // 
             // button4
             // 
@@ -109,7 +110,7 @@
             this.six.TabIndex = 0;
             this.six.Text = "six";
             this.six.UseVisualStyleBackColor = true;
-            this.six.Click += new System.EventHandler(this.button1_Click);
+            this.six.Click += new System.EventHandler(this.six_Click);
             // 
             // five
             // 
@@ -119,7 +120,7 @@
             this.five.TabIndex = 0;
             this.five.Text = "five";
             this.five.UseVisualStyleBackColor = true;
-            this.five.Click += new System.EventHandler(this.button1_Click);
+            this.five.Click += new System.EventHandler(this.five_Click);
             // 
             // four
             // 
@@ -129,7 +130,7 @@
             this.four.TabIndex = 0;
             this.four.Text = "four";
             this.four.UseVisualStyleBackColor = true;
-            this.four.Click += new System.EventHandler(this.button1_Click);
+            this.four.Click += new System.EventHandler(this.four_Click);
             // 
             // seven
             // 
@@ -139,7 +140,7 @@
             this.seven.TabIndex = 0;
             this.seven.Text = "seven";
             this.seven.UseVisualStyleBackColor = true;
-            this.seven.Click += new System.EventHandler(this.button1_Click);
+            this.seven.Click += new System.EventHandler(this.seven_Click);
             // 
             // eight
             // 
@@ -149,7 +150,7 @@
             this.eight.TabIndex = 0;
             this.eight.Text = "eight";
             this.eight.UseVisualStyleBackColor = true;
-            this.eight.Click += new System.EventHandler(this.button1_Click);
+            this.eight.Click += new System.EventHandler(this.eight_Click);
             // 
             // nine
             // 
@@ -159,7 +160,7 @@
             this.nine.TabIndex = 0;
             this.nine.Text = "nine";
             this.nine.UseVisualStyleBackColor = true;
-            this.nine.Click += new System.EventHandler(this.button1_Click);
+            this.nine.Click += new System.EventHandler(this.nine_Click);
             // 
             // plus
             // 
@@ -170,24 +171,35 @@
             this.plus.Text = "+";
             this.plus.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // subtract
             // 
-            this.button1.Location = new System.Drawing.Point(421, 135);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(76, 46);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "+";
-            this.button1.UseVisualStyleBackColor = true;
+            this.subtract.Location = new System.Drawing.Point(421, 135);
+            this.subtract.Name = "subtract";
+            this.subtract.Size = new System.Drawing.Size(76, 46);
+            this.subtract.TabIndex = 2;
+            this.subtract.Text = "-";
+            this.subtract.UseVisualStyleBackColor = true;
             // 
-            // minus
+            // zero
+            // 
+            this.zero.Location = new System.Drawing.Point(155, 278);
+            this.zero.Name = "zero";
+            this.zero.Size = new System.Drawing.Size(75, 23);
+            this.zero.TabIndex = 0;
+            this.zero.Text = "zero";
+            this.zero.UseVisualStyleBackColor = true;
+            this.zero.Click += new System.EventHandler(this.zero_Click);
+            // 
+            // form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.subtract);
             this.Controls.Add(this.plus);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.tb);
             this.Controls.Add(this.nine);
+            this.Controls.Add(this.zero);
             this.Controls.Add(this.eight);
             this.Controls.Add(this.seven);
             this.Controls.Add(this.four);
@@ -198,7 +210,7 @@
             this.Controls.Add(this.three);
             this.Controls.Add(this.two);
             this.Controls.Add(this.one);
-            this.Name = "minus";
+            this.Name = "form2";
             this.Text = "Form2";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -208,7 +220,7 @@
         #endregion
 
         private Button one;
-        private TextBox textBox1;
+        private TextBox tb;
         private Button two;
         private Button three;
         private Button button4;
@@ -220,6 +232,7 @@
         private Button eight;
         private Button nine;
         private Button plus;
-        private Button button1;
+        private Button subtract;
+        private Button zero;
     }
 }

@@ -42,3 +42,5 @@ D:\AMAN 3rd sem\csharp\csharp\aman\bin\Debug\net6.0-windows\aman.dll
 D:\AMAN 3rd sem\csharp\csharp\aman\bin\Debug\net6.0-windows\ref\aman.dll
 D:\AMAN 3rd sem\csharp\csharp\aman\bin\Debug\net6.0-windows\aman.pdb
 D:\AMAN 3rd sem\csharp\csharp\aman\obj\Debug\net6.0-windows\aman.genruntimeconfig.cache
+D:\AMAN 3rd sem\csharp\csharp\aman\bin\Debug\net6.0-windows\Program.cs
+D:\AMAN 3rd sem\csharp\csharp\aman\obj\Debug\net6.0-windows\aman.form2.resources
