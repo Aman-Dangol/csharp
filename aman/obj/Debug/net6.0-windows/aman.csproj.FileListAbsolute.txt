@@ -24,3 +24,21 @@ D:\csharp\aman\obj\Debug\net6.0-windows\aman.AssemblyInfo.cs
 D:\csharp\aman\obj\Debug\net6.0-windows\aman.csproj.CoreCompileInputs.cache
 D:\csharp\aman\obj\Debug\net6.0-windows\aman.dll
 D:\csharp\aman\obj\Debug\net6.0-windows\aman.pdb
+D:\AMAN 3rd sem\csharp\csharp\aman\obj\Debug\net6.0-windows\aman.csproj.AssemblyReference.cache
+D:\AMAN 3rd sem\csharp\csharp\aman\obj\Debug\net6.0-windows\aman.Form1.resources
+D:\AMAN 3rd sem\csharp\csharp\aman\obj\Debug\net6.0-windows\aman.Properties.Resources.resources
+D:\AMAN 3rd sem\csharp\csharp\aman\obj\Debug\net6.0-windows\aman.csproj.GenerateResource.cache
+D:\AMAN 3rd sem\csharp\csharp\aman\obj\Debug\net6.0-windows\aman.GeneratedMSBuildEditorConfig.editorconfig
+D:\AMAN 3rd sem\csharp\csharp\aman\obj\Debug\net6.0-windows\aman.AssemblyInfoInputs.cache
+D:\AMAN 3rd sem\csharp\csharp\aman\obj\Debug\net6.0-windows\aman.AssemblyInfo.cs
+D:\AMAN 3rd sem\csharp\csharp\aman\obj\Debug\net6.0-windows\aman.csproj.CoreCompileInputs.cache
+D:\AMAN 3rd sem\csharp\csharp\aman\obj\Debug\net6.0-windows\aman.dll
+D:\AMAN 3rd sem\csharp\csharp\aman\obj\Debug\net6.0-windows\ref\aman.dll
+D:\AMAN 3rd sem\csharp\csharp\aman\obj\Debug\net6.0-windows\aman.pdb
+D:\AMAN 3rd sem\csharp\csharp\aman\bin\Debug\net6.0-windows\aman.exe
+D:\AMAN 3rd sem\csharp\csharp\aman\bin\Debug\net6.0-windows\aman.deps.json
+D:\AMAN 3rd sem\csharp\csharp\aman\bin\Debug\net6.0-windows\aman.runtimeconfig.json
+D:\AMAN 3rd sem\csharp\csharp\aman\bin\Debug\net6.0-windows\aman.dll
+D:\AMAN 3rd sem\csharp\csharp\aman\bin\Debug\net6.0-windows\ref\aman.dll
+D:\AMAN 3rd sem\csharp\csharp\aman\bin\Debug\net6.0-windows\aman.pdb
+D:\AMAN 3rd sem\csharp\csharp\aman\obj\Debug\net6.0-windows\aman.genruntimeconfig.cache

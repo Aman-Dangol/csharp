@@ -21,21 +21,27 @@ namespace aman
         {
             string data = username.Text;
             int dataid = Convert.ToInt32(id.Text);
-            if (data == "aman" && dataid==5409)
+            if (data == "aman" && dataid == 5409)
             {
                 MessageBox.Show("true");
-                MessageBox.Show(dataid+"");
+                MessageBox.Show(dataid + "");
             }
             else
             {
                 MessageBox.Show("false");
-                
+
             }
-            for(int i = 0; i < 3; i++)
+            for (int i = 0; i < 3; i++)
             {
                 MessageBox.Show("success!" + i);
             }
-            try("")
+
+        }
+
+
+        private void setdata_Click(object sender, EventArgs e)
+        {
+            username.Text = "hello from the other side!!!!!!";
         }
     }
 }
