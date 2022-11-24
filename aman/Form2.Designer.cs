@@ -49,7 +49,6 @@
             this.mul = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.eqn = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -160,7 +159,7 @@
             this.nine.TabIndex = 0;
             this.nine.Text = "0";
             this.nine.UseVisualStyleBackColor = true;
-            this.nine.Click += new System.EventHandler(this.nine_Click);
+            this.nine.Click += new System.EventHandler(this.zero_Click);
             // 
             // plus
             // 
@@ -204,7 +203,7 @@
             // 
             // equal
             // 
-            this.equal.Location = new System.Drawing.Point(425, 384);
+            this.equal.Location = new System.Drawing.Point(411, 384);
             this.equal.Name = "equal";
             this.equal.Size = new System.Drawing.Size(76, 46);
             this.equal.TabIndex = 2;
@@ -235,7 +234,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(155, 50);
+            this.pictureBox1.Location = new System.Drawing.Point(117, 50);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(80, 75);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -244,22 +243,16 @@
             // 
             // eqn
             // 
-            this.eqn.Location = new System.Drawing.Point(82, 131);
+            this.eqn.Location = new System.Drawing.Point(82, 141);
             this.eqn.Name = "eqn";
             this.eqn.Size = new System.Drawing.Size(351, 23);
             this.eqn.TabIndex = 4;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(82, 131);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(351, 23);
-            this.textBox1.TabIndex = 4;
+            this.eqn.TextChanged += new System.EventHandler(this.eqn_TextChanged);
             // 
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(180, 50);
+            this.pictureBox3.Location = new System.Drawing.Point(142, 50);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(263, 75);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -274,7 +267,6 @@
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(1290, 510);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.eqn);
             this.Controls.Add(this.clear);
@@ -326,7 +318,6 @@
         private Button mul;
         private PictureBox pictureBox1;
         private TextBox eqn;
-        private TextBox textBox1;
         private PictureBox pictureBox3;
     }
 }

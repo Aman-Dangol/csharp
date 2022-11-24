@@ -115,9 +115,14 @@ namespace aman
 
         }
 
+        private void eqn_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
         private void plus_Click(object sender, EventArgs e)
         {
-            eqn.Clear();
+            //eqn.Clear();
             a =Convert.ToDecimal(tb.Text);            
             op = "+";
             tb.Text += "+";
@@ -158,8 +163,16 @@ namespace aman
                     x = "";
                     break;
                 case "/":
-                    res = a / b;
+                    if (b == 0)
+                    {
+                        MessageBox.Show("error! not divisible by zero");
+                    }
+                    else
+                    {
+                        res = a / b;
                     tb.Text = Convert.ToString(res);
+                    }
+                        
                     a = 0;
                     b = 0;
                     x = "";
