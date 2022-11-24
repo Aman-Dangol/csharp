@@ -206,7 +206,7 @@ namespace aman
                     x = "";
                     break;
                 case "/":
-                    res = a b;
+                    res = a / b;
                     tb.Text = Convert.ToString(res);
                     a = 0;
                     b = 0;
