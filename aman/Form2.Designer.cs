@@ -54,44 +54,44 @@
             // 
             // one
             // 
-            this.one.Location = new System.Drawing.Point(64, 135);
+            this.one.Location = new System.Drawing.Point(82, 228);
             this.one.Name = "one";
             this.one.Size = new System.Drawing.Size(59, 47);
             this.one.TabIndex = 0;
-            this.one.Text = "one";
+            this.one.Text = "1";
             this.one.UseVisualStyleBackColor = true;
             this.one.Click += new System.EventHandler(this.button1_Click);
             // 
             // tb
             // 
-            this.tb.Location = new System.Drawing.Point(64, 67);
+            this.tb.Location = new System.Drawing.Point(82, 160);
             this.tb.Name = "tb";
             this.tb.Size = new System.Drawing.Size(351, 23);
             this.tb.TabIndex = 1;
             // 
             // two
             // 
-            this.two.Location = new System.Drawing.Point(139, 135);
+            this.two.Location = new System.Drawing.Point(157, 228);
             this.two.Name = "two";
             this.two.Size = new System.Drawing.Size(64, 46);
             this.two.TabIndex = 0;
-            this.two.Text = "two";
+            this.two.Text = "2";
             this.two.UseVisualStyleBackColor = true;
             this.two.Click += new System.EventHandler(this.two_Click);
             // 
             // three
             // 
-            this.three.Location = new System.Drawing.Point(220, 137);
+            this.three.Location = new System.Drawing.Point(238, 230);
             this.three.Name = "three";
             this.three.Size = new System.Drawing.Size(75, 50);
             this.three.TabIndex = 0;
-            this.three.Text = "three";
+            this.three.Text = "3";
             this.three.UseVisualStyleBackColor = true;
             this.three.Click += new System.EventHandler(this.three_Click);
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(220, 190);
+            this.button4.Location = new System.Drawing.Point(238, 283);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 27);
             this.button4.TabIndex = 0;
@@ -101,67 +101,67 @@
             // 
             // six
             // 
-            this.six.Location = new System.Drawing.Point(220, 190);
+            this.six.Location = new System.Drawing.Point(238, 283);
             this.six.Name = "six";
             this.six.Size = new System.Drawing.Size(75, 44);
             this.six.TabIndex = 0;
-            this.six.Text = "six";
+            this.six.Text = "6";
             this.six.UseVisualStyleBackColor = true;
             this.six.Click += new System.EventHandler(this.six_Click);
             // 
             // five
             // 
-            this.five.Location = new System.Drawing.Point(139, 188);
+            this.five.Location = new System.Drawing.Point(157, 281);
             this.five.Name = "five";
             this.five.Size = new System.Drawing.Size(64, 40);
             this.five.TabIndex = 0;
-            this.five.Text = "five";
+            this.five.Text = "5";
             this.five.UseVisualStyleBackColor = true;
             this.five.Click += new System.EventHandler(this.five_Click);
             // 
             // four
             // 
-            this.four.Location = new System.Drawing.Point(64, 188);
+            this.four.Location = new System.Drawing.Point(82, 281);
             this.four.Name = "four";
             this.four.Size = new System.Drawing.Size(59, 40);
             this.four.TabIndex = 0;
-            this.four.Text = "four";
+            this.four.Text = "4";
             this.four.UseVisualStyleBackColor = true;
             this.four.Click += new System.EventHandler(this.four_Click);
             // 
             // seven
             // 
-            this.seven.Location = new System.Drawing.Point(64, 234);
+            this.seven.Location = new System.Drawing.Point(82, 327);
             this.seven.Name = "seven";
             this.seven.Size = new System.Drawing.Size(59, 46);
             this.seven.TabIndex = 0;
-            this.seven.Text = "seven";
+            this.seven.Text = "7";
             this.seven.UseVisualStyleBackColor = true;
             this.seven.Click += new System.EventHandler(this.seven_Click);
             // 
             // eight
             // 
-            this.eight.Location = new System.Drawing.Point(139, 234);
+            this.eight.Location = new System.Drawing.Point(157, 327);
             this.eight.Name = "eight";
             this.eight.Size = new System.Drawing.Size(64, 38);
             this.eight.TabIndex = 0;
-            this.eight.Text = "eight";
+            this.eight.Text = "8";
             this.eight.UseVisualStyleBackColor = true;
             this.eight.Click += new System.EventHandler(this.eight_Click);
             // 
             // nine
             // 
-            this.nine.Location = new System.Drawing.Point(220, 236);
+            this.nine.Location = new System.Drawing.Point(238, 329);
             this.nine.Name = "nine";
             this.nine.Size = new System.Drawing.Size(75, 42);
             this.nine.TabIndex = 0;
-            this.nine.Text = "nine";
+            this.nine.Text = "0";
             this.nine.UseVisualStyleBackColor = true;
             this.nine.Click += new System.EventHandler(this.nine_Click);
             // 
             // plus
             // 
-            this.plus.Location = new System.Drawing.Point(311, 150);
+            this.plus.Location = new System.Drawing.Point(329, 228);
             this.plus.Name = "plus";
             this.plus.Size = new System.Drawing.Size(76, 46);
             this.plus.TabIndex = 2;
@@ -171,7 +171,7 @@
             // 
             // subtract
             // 
-            this.subtract.Location = new System.Drawing.Point(393, 150);
+            this.subtract.Location = new System.Drawing.Point(411, 228);
             this.subtract.Name = "subtract";
             this.subtract.Size = new System.Drawing.Size(76, 46);
             this.subtract.TabIndex = 2;
@@ -181,17 +181,17 @@
             // 
             // zero
             // 
-            this.zero.Location = new System.Drawing.Point(137, 278);
+            this.zero.Location = new System.Drawing.Point(155, 371);
             this.zero.Name = "zero";
             this.zero.Size = new System.Drawing.Size(66, 46);
             this.zero.TabIndex = 0;
-            this.zero.Text = "zero";
+            this.zero.Text = "0";
             this.zero.UseVisualStyleBackColor = true;
             this.zero.Click += new System.EventHandler(this.zero_Click);
             // 
             // clear
             // 
-            this.clear.Location = new System.Drawing.Point(311, 291);
+            this.clear.Location = new System.Drawing.Point(329, 384);
             this.clear.Name = "clear";
             this.clear.Size = new System.Drawing.Size(76, 46);
             this.clear.TabIndex = 2;
@@ -201,7 +201,7 @@
             // 
             // equal
             // 
-            this.equal.Location = new System.Drawing.Point(407, 291);
+            this.equal.Location = new System.Drawing.Point(425, 384);
             this.equal.Name = "equal";
             this.equal.Size = new System.Drawing.Size(76, 46);
             this.equal.TabIndex = 2;
@@ -211,7 +211,7 @@
             // 
             // divide
             // 
-            this.divide.Location = new System.Drawing.Point(311, 203);
+            this.divide.Location = new System.Drawing.Point(329, 296);
             this.divide.Name = "divide";
             this.divide.Size = new System.Drawing.Size(76, 46);
             this.divide.TabIndex = 2;
@@ -221,7 +221,7 @@
             // 
             // mul
             // 
-            this.mul.Location = new System.Drawing.Point(393, 203);
+            this.mul.Location = new System.Drawing.Point(411, 296);
             this.mul.Name = "mul";
             this.mul.Size = new System.Drawing.Size(76, 46);
             this.mul.TabIndex = 2;
@@ -232,16 +232,16 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(621, 55);
+            this.pictureBox1.Location = new System.Drawing.Point(96, 50);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(225, 225);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox1.Size = new System.Drawing.Size(78, 75);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             // 
             // eqn
             // 
-            this.eqn.Location = new System.Drawing.Point(64, 39);
+            this.eqn.Location = new System.Drawing.Point(82, 131);
             this.eqn.Name = "eqn";
             this.eqn.Size = new System.Drawing.Size(351, 23);
             this.eqn.TabIndex = 4;
@@ -250,6 +250,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.HighlightText;
             this.ClientSize = new System.Drawing.Size(1290, 510);
             this.Controls.Add(this.eqn);
             this.Controls.Add(this.pictureBox1);
