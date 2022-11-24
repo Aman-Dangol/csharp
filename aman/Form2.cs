@@ -110,6 +110,11 @@ namespace aman
             
         }
 
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void plus_Click(object sender, EventArgs e)
         {
             eqn.Clear();
