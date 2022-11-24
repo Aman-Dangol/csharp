@@ -167,6 +167,12 @@ namespace aman
             x = "";
         }
 
+        private void divide_Click(object sender, EventArgs e)
+        {
+            op = "/";
+            tb.Text += "/";
+        }
+
         private void plus_Click(object sender, EventArgs e)
         {
             
@@ -194,6 +200,13 @@ namespace aman
                     break;
                 case "-":
                     res = a - b;
+                    tb.Text = Convert.ToString(res);
+                    a = 0;
+                    b = 0;
+                    x = "";
+                    break;
+                case "/":
+                    res = a b;
                     tb.Text = Convert.ToString(res);
                     a = 0;
                     b = 0;

@@ -45,6 +45,7 @@
             this.zero = new System.Windows.Forms.Button();
             this.clear = new System.Windows.Forms.Button();
             this.equal = new System.Windows.Forms.Button();
+            this.divide = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // one
@@ -214,6 +215,16 @@
             this.equal.UseVisualStyleBackColor = true;
             this.equal.Click += new System.EventHandler(this.equal_Click);
             // 
+            // divide
+            // 
+            this.divide.Location = new System.Drawing.Point(503, 135);
+            this.divide.Name = "divide";
+            this.divide.Size = new System.Drawing.Size(76, 46);
+            this.divide.TabIndex = 2;
+            this.divide.Text = "/";
+            this.divide.UseVisualStyleBackColor = true;
+            this.divide.Click += new System.EventHandler(this.divide_Click);
+            // 
             // form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -221,6 +232,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.clear);
             this.Controls.Add(this.equal);
+            this.Controls.Add(this.divide);
             this.Controls.Add(this.subtract);
             this.Controls.Add(this.plus);
             this.Controls.Add(this.tb);
@@ -262,5 +274,6 @@
         private Button zero;
         private Button clear;
         private Button equal;
+        private Button divide;
     }
 }
