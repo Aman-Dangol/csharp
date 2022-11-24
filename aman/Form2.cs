@@ -86,44 +86,55 @@ namespace aman
             a = 0;
             b = 0;
             x = "";
+            eqn.Clear();
         }
 
         private void divide_Click(object sender, EventArgs e)
         {
+            eqn.Clear();
             a = Convert.ToDecimal(tb.Text);
             op = "/";
             tb.Text += "/";
             tb.Text = "";
+            eqn.Text += a + op;
         }
 
         private void mul_Click(object sender, EventArgs e)
         {
+            eqn.Clear();
             a = Convert.ToDecimal(tb.Text);
             op = "*";
             tb.Text += "*";
             tb.Text = "";
+            eqn.Text += a + op;
+            
         }
 
         private void plus_Click(object sender, EventArgs e)
         {
-            a=Convert.ToDecimal(tb.Text);            
+            eqn.Clear();
+            a =Convert.ToDecimal(tb.Text);            
             op = "+";
             tb.Text += "+";
             tb.Text = "";
+            eqn.Text += a + op;
 
         }
 
         private void subtract_Click(object sender, EventArgs e)
         {
+            eqn.Clear();
             a = Convert.ToDecimal(tb.Text);
             op="-";
             tb.Text += "-";
             tb.Text = "";
+            eqn.Text += a + op;
         }
 
         private void equal_Click(object sender, EventArgs e)
         {
-            b=Convert.ToDecimal(tb.Text);       
+            b=Convert.ToDecimal(tb.Text); 
+            eqn.Text += b;
             switch (op)
             {
                 case "+":
@@ -132,6 +143,7 @@ namespace aman
                     a = 0;
                     b = 0;
                     x = "";
+                    
                     break;
                 case "-":
                     res = a - b;

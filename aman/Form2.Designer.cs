@@ -48,6 +48,7 @@
             this.divide = new System.Windows.Forms.Button();
             this.mul = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.eqn = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -238,11 +239,19 @@
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             // 
+            // eqn
+            // 
+            this.eqn.Location = new System.Drawing.Point(64, 39);
+            this.eqn.Name = "eqn";
+            this.eqn.Size = new System.Drawing.Size(351, 23);
+            this.eqn.TabIndex = 4;
+            // 
             // form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1290, 510);
+            this.Controls.Add(this.eqn);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.clear);
             this.Controls.Add(this.equal);
@@ -291,5 +300,6 @@
         private Button divide;
         private Button mul;
         private PictureBox pictureBox1;
+        private TextBox eqn;
     }
 }
