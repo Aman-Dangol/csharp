@@ -162,6 +162,9 @@ namespace aman
         private void clear_Click(object sender, EventArgs e)
         {
             tb.Text = "";
+            a = 0;
+            b = 0;
+            x = "";
         }
 
         private void plus_Click(object sender, EventArgs e)
@@ -174,15 +177,30 @@ namespace aman
 
         private void subtract_Click(object sender, EventArgs e)
         {
+            op="-";
             tb.Text += "-";
         }
 
         private void equal_Click(object sender, EventArgs e)
         {
-            if (op == "+")
+            switch (op)
             {
-                res = a + b;
-                tb.Text = Convert.ToString(res);
+                case "+":
+                    res = a + b;
+                    tb.Text = Convert.ToString(res);
+                    a = 0;
+                    b = 0;
+                    x = "";
+                    break;
+                case "-":
+                    res = a - b;
+                    tb.Text = Convert.ToString(res);
+                    a = 0;
+                    b = 0;
+                    x = "";
+                    break;
+
+
             }
         }
     }
