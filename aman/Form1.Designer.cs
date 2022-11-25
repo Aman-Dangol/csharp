@@ -36,7 +36,14 @@
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.setdata = new System.Windows.Forms.Button();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -79,7 +86,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(89, 116);
+            this.button1.Location = new System.Drawing.Point(89, 123);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 31);
             this.button1.TabIndex = 4;
@@ -90,7 +97,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(620, 11);
+            this.pictureBox1.Location = new System.Drawing.Point(343, 21);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(200, 185);
@@ -99,19 +106,89 @@
             // 
             // setdata
             // 
-            this.setdata.Location = new System.Drawing.Point(224, 116);
+            this.setdata.Location = new System.Drawing.Point(224, 123);
             this.setdata.Name = "setdata";
-            this.setdata.Size = new System.Drawing.Size(100, 38);
+            this.setdata.Size = new System.Drawing.Size(100, 31);
             this.setdata.TabIndex = 6;
             this.setdata.Text = "setdata";
             this.setdata.UseVisualStyleBackColor = true;
             this.setdata.Click += new System.EventHandler(this.setdata_Click);
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Items.AddRange(new object[] {
+            "kist",
+            "prasadi",
+            "NCCS",
+            "araniko"});
+            this.comboBox2.Location = new System.Drawing.Point(654, 33);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(227, 23);
+            this.comboBox2.TabIndex = 8;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(652, 118);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(83, 19);
+            this.checkBox1.TabIndex = 9;
+            this.checkBox1.Text = "checkBox1";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // checkBox2
+            // 
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Location = new System.Drawing.Point(756, 116);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(83, 19);
+            this.checkBox2.TabIndex = 9;
+            this.checkBox2.Text = "checkBox1";
+            this.checkBox2.UseVisualStyleBackColor = true;
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Location = new System.Drawing.Point(652, 187);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(94, 19);
+            this.radioButton1.TabIndex = 10;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "radioButton1";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            // 
+            // radioButton2
+            // 
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Location = new System.Drawing.Point(756, 187);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(94, 19);
+            this.radioButton2.TabIndex = 10;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "radioButton1";
+            this.radioButton2.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(343, 244);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowTemplate.Height = 25;
+            this.dataGridView1.Size = new System.Drawing.Size(200, 150);
+            this.dataGridView1.TabIndex = 11;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(998, 507);
+            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.radioButton2);
+            this.Controls.Add(this.radioButton1);
+            this.Controls.Add(this.checkBox2);
+            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.setdata);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button1);
@@ -121,7 +198,9 @@
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "a";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -136,5 +215,11 @@
         private Button button1;
         private PictureBox pictureBox1;
         private Button setdata;
+        private ComboBox comboBox2;
+        private CheckBox checkBox1;
+        private CheckBox checkBox2;
+        private RadioButton radioButton1;
+        private RadioButton radioButton2;
+        private DataGridView dataGridView1;
     }
 }

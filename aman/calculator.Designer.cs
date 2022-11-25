@@ -71,6 +71,7 @@
             this.tb.Name = "tb";
             this.tb.Size = new System.Drawing.Size(351, 23);
             this.tb.TabIndex = 1;
+            this.tb.TextChanged += new System.EventHandler(this.tb_TextChanged);
             // 
             // two
             // 
@@ -146,7 +147,7 @@
             // 
             this.eight.Location = new System.Drawing.Point(157, 327);
             this.eight.Name = "eight";
-            this.eight.Size = new System.Drawing.Size(64, 38);
+            this.eight.Size = new System.Drawing.Size(64, 44);
             this.eight.TabIndex = 0;
             this.eight.Text = "8";
             this.eight.UseVisualStyleBackColor = true;
@@ -194,7 +195,7 @@
             // 
             // clear
             // 
-            this.clear.Location = new System.Drawing.Point(329, 384);
+            this.clear.Location = new System.Drawing.Point(329, 371);
             this.clear.Name = "clear";
             this.clear.Size = new System.Drawing.Size(76, 46);
             this.clear.TabIndex = 2;
@@ -204,7 +205,7 @@
             // 
             // equal
             // 
-            this.equal.Location = new System.Drawing.Point(411, 384);
+            this.equal.Location = new System.Drawing.Point(411, 371);
             this.equal.Name = "equal";
             this.equal.Size = new System.Drawing.Size(76, 46);
             this.equal.TabIndex = 2;
@@ -263,7 +264,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(636, 88);
+            this.button1.Location = new System.Drawing.Point(445, 64);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(116, 37);
             this.button1.TabIndex = 5;

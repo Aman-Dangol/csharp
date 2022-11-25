@@ -41,7 +41,13 @@ namespace aman
 
         private void setdata_Click(object sender, EventArgs e)
         {
-            username.Text = "hello from the other side!!!!!!";
+            username.Text = "Aman Dangol";
+            id.Text = "5004";
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

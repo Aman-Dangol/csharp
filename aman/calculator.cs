@@ -122,8 +122,14 @@ namespace aman
 
         private void button1_Click_1(object sender, EventArgs e)
         {
+           this.Hide();
             Form1 fm = new Form1();
             fm.ShowDialog();
+        }
+
+        private void tb_TextChanged(object sender, EventArgs e)
+        {
+
         }
 
         private void plus_Click(object sender, EventArgs e)
