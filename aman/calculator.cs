@@ -11,11 +11,11 @@ using System.Windows.Forms;
 namespace aman
 {
    
-    public partial class form2 : Form
+    public partial class calculator : Form
     {
         string op = "",x="";
         decimal res=0,a=0,b=0;
-        public form2()
+        public calculator()
         {
             InitializeComponent();
         }
@@ -118,6 +118,12 @@ namespace aman
         private void eqn_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Form1 fm = new Form1();
+            fm.ShowDialog();
         }
 
         private void plus_Click(object sender, EventArgs e)

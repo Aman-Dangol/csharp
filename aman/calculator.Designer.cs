@@ -1,6 +1,6 @@
 ﻿namespace aman
 {
-    partial class form2
+    partial class calculator
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(form2));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(calculator));
             this.one = new System.Windows.Forms.Button();
             this.tb = new System.Windows.Forms.TextBox();
             this.two = new System.Windows.Forms.Button();
@@ -50,6 +50,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.eqn = new System.Windows.Forms.TextBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
@@ -260,12 +261,23 @@
             this.pictureBox3.TabStop = false;
             this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
-            // form2
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(636, 88);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(116, 37);
+            this.button1.TabIndex = 5;
+            this.button1.Text = "open kist";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            // 
+            // calculator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(1290, 510);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.eqn);
@@ -287,7 +299,7 @@
             this.Controls.Add(this.three);
             this.Controls.Add(this.two);
             this.Controls.Add(this.one);
-            this.Name = "form2";
+            this.Name = "calculator";
             this.Text = "Form2";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
@@ -319,5 +331,6 @@
         private PictureBox pictureBox1;
         private TextBox eqn;
         private PictureBox pictureBox3;
+        private Button button1;
     }
 }
