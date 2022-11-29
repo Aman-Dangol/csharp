@@ -68,5 +68,31 @@ namespace aman
             MessageBox.Show("successfully done");
             conn.Close();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            conn.Open();
+            string edit = "update student set name = 'nccs' where name ='kist'";
+            SqlCommand cmd = new SqlCommand(edit, conn);
+            cmd.ExecuteNonQuery();
+            MessageBox.Show("successfully done");
+            conn.Close();
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            conn.Open();
+            string rede = " delete from student where name='chor'";
+            SqlCommand cmd = new SqlCommand(rede, conn);
+            cmd.ExecuteNonQuery();
+            MessageBox.Show("deleted");
+            conn.Close();
+        }
+
+        private void dataGridView2_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            dataGridView1.Rows.Add("'momo", "ch", "402");
+        }
     }
 }
