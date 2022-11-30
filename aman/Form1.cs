@@ -1,3 +1,4 @@
+using System.Data;
 using System.Data.SqlClient;
 
 namespace aman
@@ -55,14 +56,21 @@ namespace aman
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            conn.Open();
+            string query = "select * from student";
+            SqlCommand sqlCommand = new SqlCommand(query, conn);
+            SqlDataAdapter sda=new SqlDataAdapter(sqlCommand);
+            DataTable dt = new DataTable();
+            sda.Fill(dt);
+            dataGridView2.DataSource=dt;
+            conn.Close();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
 
             conn.Open();
-            string query = "insert student( name,address,contact,phone)values ('kist','kamalpokhari','kist@gmail.com',1000)";
+            string query = "insert student( name,address,contact,phone)values ('komal','kamalpokhari','kist@gmail.com',1000)";
             SqlCommand cmd = new SqlCommand(query, conn); 
             cmd.ExecuteNonQuery();
             MessageBox.Show("successfully done");
@@ -92,7 +100,7 @@ namespace aman
 
         private void dataGridView2_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            dataGridView1.Rows.Add("'momo", "ch", "402");
+          
         }
     }
 }

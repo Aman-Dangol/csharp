@@ -45,13 +45,8 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.name = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.address = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.contact = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridView3 = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -105,10 +100,10 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(343, 21);
+            this.pictureBox1.Location = new System.Drawing.Point(330, 21);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(200, 185);
+            this.pictureBox1.Size = new System.Drawing.Size(198, 185);
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
             // 
@@ -210,47 +205,18 @@
             // dataGridView2
             // 
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.name,
-            this.address,
-            this.contact});
-            this.dataGridView2.Location = new System.Drawing.Point(431, 296);
+            this.dataGridView2.Location = new System.Drawing.Point(425, 242);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RowTemplate.Height = 25;
-            this.dataGridView2.Size = new System.Drawing.Size(337, 150);
+            this.dataGridView2.Size = new System.Drawing.Size(511, 256);
             this.dataGridView2.TabIndex = 13;
             this.dataGridView2.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView2_CellContentClick);
-            // 
-            // name
-            // 
-            this.name.HeaderText = "name";
-            this.name.Name = "name";
-            // 
-            // address
-            // 
-            this.address.HeaderText = "address";
-            this.address.Name = "address";
-            // 
-            // contact
-            // 
-            this.contact.HeaderText = "college";
-            this.contact.Name = "contact";
-            // 
-            // dataGridView3
-            // 
-            this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView3.Location = new System.Drawing.Point(882, 286);
-            this.dataGridView3.Name = "dataGridView3";
-            this.dataGridView3.RowTemplate.Height = 25;
-            this.dataGridView3.Size = new System.Drawing.Size(240, 150);
-            this.dataGridView3.TabIndex = 14;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(998, 584);
-            this.Controls.Add(this.dataGridView3);
             this.Controls.Add(this.dataGridView2);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
@@ -272,7 +238,6 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -292,14 +257,9 @@
         private CheckBox checkBox2;
         private RadioButton radioButton1;
         private RadioButton radioButton2;
-        private DataGridView dataGridView1;
         private Button button2;
         private Button button3;
         private Button button4;
         private DataGridView dataGridView2;
-        private DataGridViewTextBoxColumn name;
-        private DataGridViewTextBoxColumn address;
-        private DataGridViewTextBoxColumn contact;
-        private DataGridView dataGridView3;
     }
 }
