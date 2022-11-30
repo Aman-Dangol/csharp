@@ -50,7 +50,6 @@ D:\csharp\aman\bin\Debug\net6.0-windows\aman.deps.json
 D:\csharp\aman\bin\Debug\net6.0-windows\aman.runtimeconfig.json
 D:\csharp\aman\bin\Debug\net6.0-windows\aman.dll
 D:\csharp\aman\bin\Debug\net6.0-windows\aman.pdb
-D:\csharp\aman\obj\Debug\net6.0-windows\aman.form2.resources
 D:\csharp\aman\obj\Debug\net6.0-windows\aman.Properties.Resources.resources
 D:\csharp\aman\obj\Debug\net6.0-windows\refint\aman.dll
 D:\csharp\aman\obj\Debug\net6.0-windows\aman.genruntimeconfig.cache
@@ -82,3 +81,12 @@ D:\AMAN 3rd sem\csharp\aman\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni
 D:\AMAN 3rd sem\csharp\aman\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 D:\AMAN 3rd sem\csharp\aman\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 D:\AMAN 3rd sem\csharp\aman\obj\Debug\net6.0-windows\aman.csproj.CopyComplete
+D:\csharp\aman\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+D:\csharp\aman\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+D:\csharp\aman\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+D:\csharp\aman\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+D:\csharp\aman\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\csharp\aman\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\csharp\aman\obj\Debug\net6.0-windows\aman.calculator.resources
+D:\csharp\aman\obj\Debug\net6.0-windows\aman.csproj.CopyComplete
+D:\csharp\aman\obj\Debug\net6.0-windows\aman.dbtry.resources
