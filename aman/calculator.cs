@@ -13,7 +13,7 @@ namespace aman
    
     public partial class calculator : Form
     {
-        string op = "",x="";
+        string op = "";
         decimal res=0,a=0,b=0;
         public calculator()
         {
@@ -85,7 +85,7 @@ namespace aman
             tb.Text = "";
             a = 0;
             b = 0;
-            x = "";
+           // x = "";
             eqn.Clear();
         }
 
@@ -164,7 +164,7 @@ namespace aman
                     tb.Text = Convert.ToString(res);
                     a = 0;
                     b = 0;
-                    x = "";
+                    //x = "";
                     
                     break;
                 case "-":
@@ -172,7 +172,7 @@ namespace aman
                     tb.Text = Convert.ToString(res);
                     a = 0;
                     b = 0;
-                    x = "";
+                    //x = "";
                     break;
                 case "/":
                     if (b == 0)
@@ -187,14 +187,14 @@ namespace aman
                         
                     a = 0;
                     b = 0;
-                    x = "";
+                    //x = "";
                     break;
                 case "*":
                     res = a * b;
                     tb.Text = Convert.ToString(res);
                     a = 0;
                     b = 0;
-                    x = "";
+                    //x = "";
                     break;
 
             }

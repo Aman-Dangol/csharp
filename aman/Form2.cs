@@ -13,8 +13,6 @@ namespace aman
 {
     public partial class dbtry : Form
     {
-        string username, aged, phone;
-
         SqlConnection withdb = new SqlConnection(
         @"data source=.\SQLEXPRESS;
         initial catalog=info;
@@ -43,14 +41,77 @@ namespace aman
             withdb.Close();
         }
 
+        private void barsa_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void number_TextChanged(object sender, EventArgs e)
+        {
+        }
+
+        private void insert_Click(object sder, EventArgs e)
+        {
+            
+            withdb.Open();
+            string query = "insert into details(name,age,contact) values ('"+naam.Text+ "','"+Convert.ToInt32(barsa.Text) + "','"+number.Text+"')";
+            SqlCommand cmd= new SqlCommand(query, withdb);
+            cmd.ExecuteNonQuery();
+            string q = "select * from details";
+            cmd= new SqlCommand(q, withdb);
+            SqlDataAdapter sda = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            sda.Fill(dt);
+            dataGridView1.DataSource = dt;
+            withdb.Close();
+        }
+
         private void label2_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            username = naam.Text;
+            
+        }
+
+        private void delete_Click(object sender, EventArgs e)
+        {
+            int uid=Convert.ToInt32(textBox1.Text);
+            withdb.Open();
+            string query = "delete from details where id='"+ uid+"'";
+           SqlCommand cmd = new SqlCommand(query, withdb);
+           cmd.ExecuteNonQuery();
+            string q = "select * from details";
+            cmd = new SqlCommand(q,withdb);
+            SqlDataAdapter ab= new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            ab.Fill(dt);
+            dataGridView1.DataSource= dt;
+            MessageBox.Show("the id "+uid+" has been deleted");
+            withdb.Close();
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            withdb.Open();
+            int x=Convert.ToInt32(textBox2.Text);
+            string query = "update details set name='"+textBox3.Text+"' , age='"+(textBox4.Text) +"',contact='"+textBox5.Text+"' where id='"+x+"'";
+            SqlCommand cmd= new SqlCommand(query, withdb);
+            cmd.ExecuteNonQuery();
+             string q = "select * from details";
+            cmd = new SqlCommand(q,withdb);
+            SqlDataAdapter ab= new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            ab.Fill(dt);
+            dataGridView1.DataSource= dt;
+            withdb.Close();
         }
     }
 }
