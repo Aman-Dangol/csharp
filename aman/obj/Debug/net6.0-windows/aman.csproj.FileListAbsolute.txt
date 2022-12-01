@@ -90,3 +90,4 @@ D:\csharp\aman\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Da
 D:\csharp\aman\obj\Debug\net6.0-windows\aman.calculator.resources
 D:\csharp\aman\obj\Debug\net6.0-windows\aman.csproj.CopyComplete
 D:\csharp\aman\obj\Debug\net6.0-windows\aman.dbtry.resources
+D:\AMAN 3rd sem\csharp\aman\obj\Debug\net6.0-windows\aman.dbtry.resources

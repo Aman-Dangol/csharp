@@ -13,11 +13,13 @@ namespace aman
 {
     public partial class dbtry : Form
     {
+        string username, aged, phone;
+
         SqlConnection withdb = new SqlConnection(
-        @"data source=DESKTOP-HU4SDOU\SQLEXPRESS;
+        @"data source=.\SQLEXPRESS;
         initial catalog=info;
-        user id=aman;
-        password=aman;");
+        user id=sa;
+        password=qwe;");
 
         public dbtry()
         {
@@ -39,6 +41,16 @@ namespace aman
             ab.Fill(information);
             dataGridView1.DataSource= information;
             withdb.Close();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            username = naam.Text;
         }
     }
 }
