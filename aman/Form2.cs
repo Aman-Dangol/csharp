@@ -102,7 +102,7 @@ namespace aman
         {
             withdb.Open();
             int x=Convert.ToInt32(textBox2.Text);
-            string se = "select * from details where id='" + textBox2.Text + "'";
+          //  string se = "select * from details where id='" + textBox2.Text + "'";
             string query = "update details set name='"+textBox3.Text+"' , age='"+(textBox4.Text) +"',contact='"+textBox5.Text+"' where id='"+x+"'";
             SqlCommand cmd= new SqlCommand(query, withdb);
             cmd.ExecuteNonQuery();
@@ -126,6 +126,7 @@ namespace aman
             textBox3.Text=na;
             textBox4.Text=ag;
             textBox5.Text=c;
+            
         }
     }
 }
