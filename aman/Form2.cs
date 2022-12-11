@@ -126,6 +126,7 @@ namespace aman
             textBox3.Text=na;
             textBox4.Text=ag;
             textBox5.Text=c;
+            int a = 99;
         }
     }
 }
